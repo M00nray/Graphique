@@ -12,11 +12,19 @@
 		64CDACA01625EF3D003F3D25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDAC9F1625EF3D003F3D25 /* main.m */; };
 		64CDACA41625EF3D003F3D25 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACA21625EF3D003F3D25 /* Credits.rtf */; };
 		64CDACA71625EF3D003F3D25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACA61625EF3D003F3D25 /* AppDelegate.m */; };
-		64CDACAA1625EF3E003F3D25 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACA81625EF3E003F3D25 /* MainMenu.xib */; };
 		64CDACB21625EF3F003F3D25 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CDACB11625EF3F003F3D25 /* SenTestingKit.framework */; };
 		64CDACB31625EF3F003F3D25 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CDAC931625EF3D003F3D25 /* Cocoa.framework */; };
 		64CDACBB1625EF40003F3D25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACB91625EF40003F3D25 /* InfoPlist.strings */; };
 		64CDACBE1625EF40003F3D25 /* GraphiqueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACBD1625EF40003F3D25 /* GraphiqueTests.m */; };
+		64CDACD11625F3F3003F3D25 /* EquationEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACC91625F3F3003F3D25 /* EquationEntryViewController.m */; };
+		64CDACD21625F3F3003F3D25 /* EquationEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACCA1625F3F3003F3D25 /* EquationEntryViewController.xib */; };
+		64CDACD31625F3F3003F3D25 /* GraphTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACCC1625F3F3003F3D25 /* GraphTableViewController.m */; };
+		64CDACD41625F3F3003F3D25 /* GraphTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACCD1625F3F3003F3D25 /* GraphTableViewController.xib */; };
+		64CDACD51625F3F3003F3D25 /* RecentlyUsedEquationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACCF1625F3F3003F3D25 /* RecentlyUsedEquationsViewController.m */; };
+		64CDACD61625F3F3003F3D25 /* RecentlyUsedEquationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACD01625F3F3003F3D25 /* RecentlyUsedEquationsViewController.xib */; };
+		64CDACD81625F62A003F3D25 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDACD71625F62A003F3D25 /* MainMenu.xib */; };
+		64CDACDF1625F86F003F3D25 /* EquationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACDE1625F86F003F3D25 /* EquationItem.m */; };
+		64CDACE21625F895003F3D25 /* GroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDACE11625F895003F3D25 /* GroupItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +50,26 @@
 		64CDACA31625EF3D003F3D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		64CDACA51625EF3D003F3D25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64CDACA61625EF3D003F3D25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64CDACA91625EF3E003F3D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		64CDACB01625EF3F003F3D25 /* GraphiqueTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphiqueTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CDACB11625EF3F003F3D25 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		64CDACB81625EF3F003F3D25 /* GraphiqueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphiqueTests-Info.plist"; sourceTree = "<group>"; };
 		64CDACBA1625EF40003F3D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64CDACBC1625EF40003F3D25 /* GraphiqueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphiqueTests.h; sourceTree = "<group>"; };
 		64CDACBD1625EF40003F3D25 /* GraphiqueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphiqueTests.m; sourceTree = "<group>"; };
+		64CDACC81625F3F3003F3D25 /* EquationEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationEntryViewController.h; sourceTree = "<group>"; };
+		64CDACC91625F3F3003F3D25 /* EquationEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationEntryViewController.m; sourceTree = "<group>"; };
+		64CDACCA1625F3F3003F3D25 /* EquationEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquationEntryViewController.xib; sourceTree = "<group>"; };
+		64CDACCB1625F3F3003F3D25 /* GraphTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphTableViewController.h; sourceTree = "<group>"; };
+		64CDACCC1625F3F3003F3D25 /* GraphTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphTableViewController.m; sourceTree = "<group>"; };
+		64CDACCD1625F3F3003F3D25 /* GraphTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphTableViewController.xib; sourceTree = "<group>"; };
+		64CDACCE1625F3F3003F3D25 /* RecentlyUsedEquationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentlyUsedEquationsViewController.h; sourceTree = "<group>"; };
+		64CDACCF1625F3F3003F3D25 /* RecentlyUsedEquationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentlyUsedEquationsViewController.m; sourceTree = "<group>"; };
+		64CDACD01625F3F3003F3D25 /* RecentlyUsedEquationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentlyUsedEquationsViewController.xib; sourceTree = "<group>"; };
+		64CDACD71625F62A003F3D25 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		64CDACDD1625F85C003F3D25 /* EquationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquationItem.h; path = ../EquationItem.h; sourceTree = "<group>"; };
+		64CDACDE1625F86F003F3D25 /* EquationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquationItem.m; path = ../EquationItem.m; sourceTree = "<group>"; };
+		64CDACE01625F882003F3D25 /* GroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupItem.h; path = ../GroupItem.h; sourceTree = "<group>"; };
+		64CDACE11625F895003F3D25 /* GroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupItem.m; path = ../GroupItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +135,14 @@
 		64CDAC991625EF3D003F3D25 /* Graphique */ = {
 			isa = PBXGroup;
 			children = (
+				64CDACE11625F895003F3D25 /* GroupItem.m */,
+				64CDACE01625F882003F3D25 /* GroupItem.h */,
+				64CDACDE1625F86F003F3D25 /* EquationItem.m */,
+				64CDACDD1625F85C003F3D25 /* EquationItem.h */,
+				64CDACC71625F25B003F3D25 /* Views */,
 				64CDACA51625EF3D003F3D25 /* AppDelegate.h */,
 				64CDACA61625EF3D003F3D25 /* AppDelegate.m */,
-				64CDACA81625EF3E003F3D25 /* MainMenu.xib */,
+				64CDACD71625F62A003F3D25 /* MainMenu.xib */,
 				64CDAC9A1625EF3D003F3D25 /* Supporting Files */,
 			);
 			path = Graphique;
@@ -151,6 +177,22 @@
 				64CDACB91625EF40003F3D25 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64CDACC71625F25B003F3D25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64CDACC81625F3F3003F3D25 /* EquationEntryViewController.h */,
+				64CDACC91625F3F3003F3D25 /* EquationEntryViewController.m */,
+				64CDACCA1625F3F3003F3D25 /* EquationEntryViewController.xib */,
+				64CDACCB1625F3F3003F3D25 /* GraphTableViewController.h */,
+				64CDACCC1625F3F3003F3D25 /* GraphTableViewController.m */,
+				64CDACCD1625F3F3003F3D25 /* GraphTableViewController.xib */,
+				64CDACCE1625F3F3003F3D25 /* RecentlyUsedEquationsViewController.h */,
+				64CDACCF1625F3F3003F3D25 /* RecentlyUsedEquationsViewController.m */,
+				64CDACD01625F3F3003F3D25 /* RecentlyUsedEquationsViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +268,10 @@
 			files = (
 				64CDAC9E1625EF3D003F3D25 /* InfoPlist.strings in Resources */,
 				64CDACA41625EF3D003F3D25 /* Credits.rtf in Resources */,
-				64CDACAA1625EF3E003F3D25 /* MainMenu.xib in Resources */,
+				64CDACD21625F3F3003F3D25 /* EquationEntryViewController.xib in Resources */,
+				64CDACD41625F3F3003F3D25 /* GraphTableViewController.xib in Resources */,
+				64CDACD61625F3F3003F3D25 /* RecentlyUsedEquationsViewController.xib in Resources */,
+				64CDACD81625F62A003F3D25 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +308,11 @@
 			files = (
 				64CDACA01625EF3D003F3D25 /* main.m in Sources */,
 				64CDACA71625EF3D003F3D25 /* AppDelegate.m in Sources */,
+				64CDACD11625F3F3003F3D25 /* EquationEntryViewController.m in Sources */,
+				64CDACD31625F3F3003F3D25 /* GraphTableViewController.m in Sources */,
+				64CDACD51625F3F3003F3D25 /* RecentlyUsedEquationsViewController.m in Sources */,
+				64CDACDF1625F86F003F3D25 /* EquationItem.m in Sources */,
+				64CDACE21625F895003F3D25 /* GroupItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +349,6 @@
 				64CDACA31625EF3D003F3D25 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		64CDACA81625EF3E003F3D25 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64CDACA91625EF3E003F3D25 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		64CDACB91625EF40003F3D25 /* InfoPlist.strings */ = {
